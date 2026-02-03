@@ -19,8 +19,8 @@ public class Library {
 
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/RNSIT",
-                    "root",
-                    "Jayalakshmibs35@"
+                    "username",
+                    "Password"
             );
 
             System.out.println("Database connected\n");
@@ -193,3 +193,4 @@ public class Library {
         }
     }
 }
+
