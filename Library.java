@@ -18,7 +18,7 @@ public class Library {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             con = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/RNSIT",
+                    "jdbc:mysql://localhost:3306/databasename",
                     "username",
                     "Password"
             );
@@ -193,4 +193,5 @@ public class Library {
         }
     }
 }
+
 
